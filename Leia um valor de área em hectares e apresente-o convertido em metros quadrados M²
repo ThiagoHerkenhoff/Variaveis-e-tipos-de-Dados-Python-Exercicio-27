@@ -1,0 +1,6 @@
+# 27 - Leia um valor de área em hectares e apresente-o convertido em metros quadrados M². A fórmula de conversão é:
+# M = H * 10000, sendo M a área em metros quadrados e H a área em hectares.
+
+h = float(input('Informe a área em Hectares: '))
+m = h * 10000
+print(f'A área em Hectares é : {m}')
